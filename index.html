@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina - One page</title>
+    <link rel="stylesheet" href="./styles.css">
+
+</head>
+
+<body>
+    <article class="main--container">
+        <!-- Menú de navegación -->
+        <section class="main--menu" id="menu">
+            <div class="menu--nav__logo">
+                <img class="menu--nav__logo__img" src="./assets/logo.png" alt="Logo de la pagina web">
+            </div>
+            <nav class="menu--nav">
+                <ul class="menu--nav__list">
+                    <li class="menu--nav__list__item"><a href="#home">Inicio</a></li>
+                    <li class="menu--nav__list__item"><a href="#about">Acerca de</a></li>
+                    <li class="menu--nav__list__item"><a href="#services">Servicios</a></li>
+                    <li class="menu--nav__list__item"><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </section>
+
+        <!-- Sección de bienvenida -->
+        <section class="main--content" id="home">
+            <h1 class="main--content__title">¿Todavía no tenés página web?</h1>
+            <h2 class="main--content__subtitle">Este es un título llamativo, ideal para destacarte.</h2>
+            <h2 class="main--content__subtitle">Por supuesto que esto es un ejemplo, pensalo como una página
+                vacía</h2>
+            <p class="main--content__paragraph">Tu negocio merece estar en internet. Empezá con una web simple y
+                efectiva.</p>
+        </section>
+
+        <!-- Sección acerca de -->
+        <section class="main--content" id="about">
+            <h2 class="main--content__subtitle">Mostrá quién sos y qué hacés</h2>
+            <p class="main--content__paragraph">Esta sección sirve para contarle al mundo tu historia, tu pasión, y por
+                qué tus productos o servicios son únicos.</p>
+            <img src="./assets/papa.gif" alt="" class="main--content__img__papa">
+        </section>
+
+        <!-- Sección de servicios -->
+        <section class="main--content" id="services">
+            <h2 class="main--content__subtitle">Lo que podés ofrecer</h2>
+            <p class="main--content__paragraph">Esta parte está pensada para mostrar tus productos o servicios más
+                importantes de forma clara.</p>
+            <div class="main--content__grid__prueba">
+                <img src="./assets/arandanos.jpg" alt="" class="grid--imagenes">
+                <img src="./assets/frutillas.jpg" alt="" class="grid--imagenes">
+                <img src="./assets/queso.jpg" alt="" class="grid--imagenes">
+                <img src="./assets/pan.jpg" alt="" class="grid--imagenes">
+                <img src="./assets/vegetales.jpg" alt="" class="grid--imagenes">
+                <img src="./assets/zanahorias.jpg" alt="" class="grid--imagenes">
+            </div>
+        </section>
+
+        <!-- Sección de contacto -->
+        <section class="main--content" id="contact">
+            <h2 class="main--content__subtitle">Formulario de contacto</h2>
+            <p class="main--content__paragraph">Esto es un formulario para que tus clientes se comuniquen con vos.</p>
+            <form class="main--content__form" action="#">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+        <section class="main--whatsapp">
+
+            <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-button">
+                <img src="./assets/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon">
+            </a>
+            <a href="#menu" class="main--whatsapp__arriba">
+                <img src="./assets/flecha-arriba.png" alt="Icono de flecha hacia arriba" title="Ir arriba"
+                    class="whatsapp-arrow">
+            </a>
+        </section>
+        <!-- Sección de pie de página -->
+        <footer class="main--footer">
+            <p>&copy; 2025 Mi Pagina Web. Todos los derechos reservados.</p>
+        </footer>
+    </article>
+</body>
+
+
+</html>
