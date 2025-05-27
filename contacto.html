@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi pagina - Landing Page</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <!-- Menú de navegación -->
+    <section class="main--menu" id="menu">
+        <div class="menu--nav__logo">
+            <img class="menu--nav__logo__img" src="./assets/logo.png" alt="Logo de la pagina web">
+        </div>
+        <nav class="menu--nav">
+            <ul class="menu--nav__list">
+                <li class="menu--nav__list__item"><a href="./index.html">Inicio</a></li>
+                <li class="menu--nav__list__item"><a href="./acercaDe.html">Acerca de</a></li>
+                <li class="menu--nav__list__item"><a href="./servicios.html">Servicios</a></li>
+                <li class="menu--nav__list__item"><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </section>
+    <!-- Sección de contacto -->
+    <section class="main--content" id="contact">
+        <h2 class="main--content__subtitle">Formulario de contacto</h2>
+        <p class="main--content__paragraph">Esto es un formulario para que tus clientes se comuniquen con vos.</p>
+        <form class="main--content__form" action="#">
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Correo electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensaje:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Sección de WhatsApp -->
+    <section class="main--whatsapp">
+
+        <a href="https://wa.me/1234567890" target="_blank" class="whatsapp-button">
+            <img src="./assets/whatsapp.png" alt="WhatsApp Icon" class="whatsapp-icon">
+        </a>
+        <a href="#menu" class="main--whatsapp__arriba">
+            <img src="./assets/flecha-arriba.png" alt="Icono de flecha hacia arriba" title="Ir arriba"
+                class="whatsapp-arrow">
+        </a>
+    </section>
+    <!-- Sección de pie de página -->
+    <footer class="main--footer">
+        <p>&copy; 2025 Mi Pagina Web. Todos los derechos reservados.</p>
+    </footer>
+</body>
+
+</html>

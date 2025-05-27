@@ -84,7 +84,18 @@ body {
     justify-content: center;
     padding: 3rem 1rem;
     width: 100%;
-    min-height: 100vh;
+    min-height: 67vh;
+    text-align: center;
+}
+
+.main--content__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 1rem;
+    width: 100%;
+    min-height: 67vh;
     text-align: center;
 }
 
@@ -96,13 +107,13 @@ body {
 
 .main--content__subtitle {
     font-size: 2rem;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     color: #52357B;
 }
 
 .main--content__img__papa {
     width: 100%;
-    max-width: 600px;
+    max-width: 170px;
     height: auto;
     border-radius: 10px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -132,6 +143,48 @@ body {
     max-width: 600px;
     margin-bottom: 1rem;
     font-weight: 600;
+}
+
+.main--content__button {
+    background-color: #52357B;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.main--content__button__contacto {
+    background-color: #52357B;
+    color: white;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+}
+
+.main--content__paragraph__about {
+    background-color: #52357B;
+    color: white;
+    padding: 0.75rem 0.75rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.button-explication {
+    background-color: #B2D8CE;
+    color: #52357B;
+    padding: 0.75rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
 /* FORMULARIO */
